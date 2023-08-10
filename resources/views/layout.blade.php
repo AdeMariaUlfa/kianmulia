@@ -115,7 +115,7 @@
                             <a href="/investorRapat" class="dropdown-item" style="color:#b97d29;">Rapat Umum Pemegang Saham</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Keterbukaan Informasi</a>
                             <a href="/profil-komisaris" class="dropdown-item" style="color:#b97d29;">Ikhtisar Data Keuangan</a>
-                            <a href="/investor-tanggungjawab" class="dropdown-item" style="color:#b97d29;">Tanggung Jawab Soal Perusahaan</a>
+                            <a href="/investor-tanggungjawab" class="dropdown-item" style="color:#b97d29;">Tanggung Jawab Sosial Perusahaan</a>
                         </div>
                     </div>
                     <a href="/berita" class="nav-item nav-link" style="color:#b97d29;">Berita</a>

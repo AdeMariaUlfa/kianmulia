@@ -83,7 +83,7 @@
             <div class="col wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
             <div class="bg-orange shadow d-flex p-4" style="width:216px; height: 322px; border-radius:10px;">
                     <figure>
-                        <img src="{{ asset('image-bisnis/trading/TORMENE INDUSTRIALE.png') }}" style="width:200px; height: 250px;  margin-bottom:20px;  border-radius:10px;" alt="">
+                        <img src="{{ asset('image-bisnis/trading/trading-01.png') }}" style="width:200px; height: 250px;  margin-bottom:20px;  border-radius:10px;" alt="">
                         <a href="/profil-bisnis-trading"><h5 class="text-white mb-0 text-center">TRADING</h5></a>
                     </figure>
                 </div>
