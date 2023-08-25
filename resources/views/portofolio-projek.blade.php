@@ -2,6 +2,7 @@
 @section('css')
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <style>
+
     .galery {
         background-color: black;
     }
@@ -46,6 +47,7 @@
     .text-box {
         position: relative;
         color: #ffffff;
+        font-family: "Aileron", "sans-serif";
     }
 
     @media (min-width: 768px) {
@@ -87,7 +89,7 @@
             @foreach($data as $p)
             <div class="col-lg-3 col-md-6 mb-5 mx-4 ">
                 <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                    <img src="{{asset('file-dokumentasi/'.$p->dokumentasi->first()->dokumentasi)}}" data-target="#modal{{$p->id}}" data-toggle="modal" style="object-fit: cover; border: 5px solid black; border-radius: 30px; width: 300px; height: 300px;" />
+                    <img src="{{asset('file-dokumentasi/'.$p->dokumentasi->first()->dokumentasi)}}" data-target="#modal{{$p->id}}" data-toggle="modal" style="object-fit: cover; border: 1px solid black; border-radius: 30px; width: 300px; height: 300px;" />
                 </div>
             </div>
             @endforeach

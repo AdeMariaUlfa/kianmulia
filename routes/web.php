@@ -71,6 +71,7 @@ Route::get('/investorRapat', function () {return view('investor-rapat');});
 Route::get('/investor-tanggungjawab', function () {return view('investor-tanggungjawab');});
 
 Route::get('/kontak', function () {return view('kontakKami');});
+Route::get('/karir', function () {return view('karir');});
 Route::get('/admin', function () {return view('admin.dashboard');});
 
 

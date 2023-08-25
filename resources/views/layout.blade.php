@@ -123,7 +123,7 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#b97d29;">Kontak Kami</a>
                         <div class="dropdown-menu m-0">
                             <a href="/kontak" class="dropdown-item" style="color:#b97d29;">Kontak</a>
-                            <a href="#" class="dropdown-item" style="color:#b97d29;">Karir</a>
+                            <a href="/karir" class="dropdown-item" style="color:#b97d29;">Karir</a>
                         </div>
                     </div>
                     <a href="{{route('login')}}" class="nav-item nav-link" style="color:#b97d29;">Login</a>
@@ -220,7 +220,7 @@
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Pengadaan</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Investor</a>
                                 <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Berita</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
+                                <a class="text-light" href="/karir"><i class="bi bi-arrow-right text-primary me-2"></i>Karir</a>
                             </div>
                         </div>
                     </div>

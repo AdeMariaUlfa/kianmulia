@@ -92,6 +92,10 @@ class HomeController extends Controller
    {
       return view('kontakKami');
    }
+   public function karir()
+   {
+      return view('karir');
+   }
    public function berita()
    {
       $data = berita::latest()->get();
