@@ -21,7 +21,7 @@
                 <div class="content">
                     <div class="container">
                         <div class="row">
-                            @foreach($data as $career)
+                          
                             <div class="col-lg-12">
                                 <div class="card" >
                                     <a class="img-card" href="">
@@ -29,7 +29,7 @@
                                     </a>
                                     <div class="card-content" style="margin-bottom:95px;">
                                         <h4 class="card-title text-center">
-                                            <a href="{{route('career.show',$career)}}">
+                                            <a href="#">
                                                 {{$career->judul}}
                                             </a>
                                         </h4><br>
@@ -42,7 +42,6 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach
                             
                           
                             

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\CareerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LaporanController;
@@ -59,6 +60,7 @@ Route::get('/trading-tormene', function () {return view('sub-bisnis/trading-torm
 Route::resource('/admin/berita',BeritaController::class);
 Route::resource('/admin/portofolio',PortofolioController::class);
 Route::resource('/admin/laporan',LaporanController::class);
+Route::resource('/admin/career',CareerController::class);
 Route::get('/berita', [HomeController::class, 'berita'] );
 Route::get('/admin/portofolio/{id}/hapus-dokumentasi',[PortofolioController::class,'destroyDokumentasi'])->name('hapus-dokumentasi');
 Route::post('/admin/portofolio/{id}/tambah-dokumentasi',[PortofolioController::class,'tambahDokumentasi'])->name('tambah-dokumentasi');
@@ -71,7 +73,7 @@ Route::get('/investorRapat', function () {return view('investor-rapat');});
 Route::get('/investor-tanggungjawab', function () {return view('investor-tanggungjawab');});
 
 Route::get('/kontak', function () {return view('kontakKami');});
-Route::get('/karir', function () {return view('karir');});
+Route::get('/karir', [HomeController::class, 'karir']);
 Route::get('/admin', function () {return view('admin.dashboard');});
 
 

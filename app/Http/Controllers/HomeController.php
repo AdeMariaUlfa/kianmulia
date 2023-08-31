@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\berita;
+use App\Models\Career;
 use App\Models\laporan;
 use Illuminate\Http\Request;
 
@@ -94,7 +95,9 @@ class HomeController extends Controller
    }
    public function karir()
    {
-      return view('karir');
+      $data = Career::latest()->get();
+      return view('karir', compact('data'));
+      
    }
    public function berita()
    {
