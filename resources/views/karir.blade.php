@@ -143,6 +143,85 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-6">
+                                <div class="card" >
+                                    <a class="img-card" href="">
+                                        <img style="width:80%;" src="{{ asset('image/asisten.jpg') }}" />
+                                    </a>
+                                    <div class="card-content" style="margin-bottom:95px;">
+                                        <h4 class="card-title text-center">
+                                            <a href="#">
+                                                Progress Controller
+                                            </a>
+                                        </h4><br>
+                                        <h6>
+                                            Requirements: <br>
+                                            1. Bachelor's degree in civil/accounting or a related field<br>
+                                            2. Proven track record in project planning, scheduling, and monitoring<br>
+                                            3. Excellent analytical and problem solving skill<br>
+                                            4. Strong attention to detail and ability to multitask<br>
+                                            5. Excellent communication and interpersonal skills<br>
+                                            6. Proficiency in Microsoft Office Suite and project management software tools<br>
+                                            7. Knowledge of project and construction related financial and accounting principles and practices<br>
+                                            8. Ability to work independently and collaborate with cross-functional teams<br><br>
+
+                                            Lamaran dikirim ke email : <b>hrd@kianmulia.com</b> dengan mencantumkan posisi yang dilamar.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <a class="img-card" href="">
+                                        <img style="width:80%;" src="{{ asset('image/drafter.jpg') }}" />
+                                    </a>
+                                    <div class="card-content">
+                                        <h4 class="card-title text-center">
+                                            <a href="#">
+                                                Drafter
+                                            </a>
+                                        </h4><br>
+                                        <h6>
+                                            Requirements: <br>
+                                            1. Bachelor's degree in Drafting, Architecture, Mechanical Engineering, or related field<br>
+                                            2. 2+ years of experience in drafting for a manufacturing or construction company<br>
+                                            3. Proficiency in computer-aided design(CAD) software including AutoCAD and SolidWorks<br>
+                                            4. Ability to read and interpret technical documentation and blueprints<br>
+                                            5. Strong attention to detail and ability to work effectively with cross-functional teams<br>
+                                            6. Excellent communication and problem-solving skills<br>
+                                            7. Excellent with 3D modeling software<br><br>
+
+                                            Lamaran dikirim ke email : <b>hrd@kianmulia.com</b> dengan mencantumkan posisi yang dilamar.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <a class="img-card" href="">
+                                        <img style="width:80%;" src="{{ asset('image/k3.jpg') }}" />
+                                    </a>
+                                    <div class="card-content"  style="margin-bottom:35px;">
+                                        <h4 class="card-title text-center">
+                                            <a href="#">
+                                                HSE Officer
+                                            </a>
+                                        </h4><br>
+                                        <h6>
+                                            Requirements: <br>
+                                            1. Pria, Lulusan Ilmu Lingkungan, K3<br>
+                                            2. Mempunyai sertifikat K3<br>
+                                            3. Pengalaman dalam mengembangkan dan menerapkan kebijakan dan prosedur keselamatan dan lingkungan<br>
+                                            4. Memahami peraturan lingkungan, kesehatan, dan keselamatan yang berlaku seperti OSHA, EPA, dan peraturan lokal<br>
+                                            5. Mampu melakukan audit keselamatan, penilaian resiko, dan investigasi insiden keterampilan<br>
+                                            6. Berpengalaman dalam sertifikat audit seperti ISO 14001 dan OHSAS 18001<br>
+                                            7. Bisa bekerja mandiri maupun dengan tim lintas fungsi dan berkomunikasi secara efektif dengan semua tingkat organisasi<br><br>
+
+                                            Lamaran dikirim ke email : <b>hrd@kianmulia.com</b> dengan mencantumkan posisi yang dilamar.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
                           
                         </div>
                     </div>
